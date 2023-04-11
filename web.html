@@ -1,0 +1,296 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <h1>TSHOP</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            NEW PRODUCTS
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            SHOPS
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            PAGES
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">ALL PAGE LINK</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/s1.png" class="d-block w-100" alt="">
+            </div>
+            <div class="carousel-item">
+                <img src="images/s2.png" class="d-block w-100" alt="">
+            </div>
+            <div class="carousel-item">
+                <img src="images/s3.png" class="d-block w-100" alt="">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    </div>
+    <h1 class="text-center">ĐỊA ĐIỂM NỔI BẬT</h1>
+    <div class="container-xl ">
+        <div class="row">
+            <div class=" col-sm-6 col-md-3  box">
+                <div class="sp">
+                    <div class="shadow p-3 mb-5 bg-body rounded">
+                        <div class="p-3 mb-2 bg-success text-white"><img class="img-fluid" src="/danang.jpg" alt="">
+                            <div class="name">
+                                <p class="text-center"><b>ĐÀ LẠT</b></p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item"><i class="fa-sharp fa-regular fa-calendar-days"></i>
+                                    <b>DOB</b>
+                                    <span class="float-end">27/04/2021</span>
+                                </li>
+                                <li class="list-group-item"><i class="fa-solid fa-heart"></i> <b>BG</b> <span
+                                        class="float-end">B+</span></li>
+                                <li class="list-group-item"><i class="fa-solid fa-graduation-cap"></i> <b>EDU</b><span
+                                        class="float-end">MCA</span></li>
+                                <li class="list-group-item"><i class="fa-solid fa-location-dot"></i><b>RES</b> <span
+                                        class="float-end">Bangalore</span></li>
+                            </ul>
+                            <div class="p-3 mb-2 bg-danger text-white">EMAIL<br>
+                                <i class="fa-solid fa-envelope"></i> contact@gmail.com
+                            </div>
+                            <div class="p-3 mb-2 bg-info text-dark">PHONE NUMBER <br>
+                                <i class="fa-sharp fa-solid fa-phone-volume"></i> (+84) *** *** ***
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class=" col-sm-6 col-md-3  box">
+                <div class="sp">
+                    <div class="shadow p-3 mb-5 bg-body rounded">
+                        <div class="p-3 mb-2 bg-success text-white"><img class="img-fluid" src="/halongquangninh.jpg" alt="">
+                            <div class="name">
+                                <p class="text-center"><b>VỊNH HẠ LONG</b> <br></p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item"><i class="fa-sharp fa-regular fa-calendar-days"></i>
+                                    <b>DOB</b>
+                                    <span class="float-end">27/04/2021</span>
+                                </li>
+                                <li class="list-group-item"><i class="fa-solid fa-heart"></i> <b>BG</b> <span
+                                        class="float-end">B+</span></li>
+                                <li class="list-group-item"><i class="fa-solid fa-graduation-cap"></i> <b>EDU</b><span
+                                        class="float-end">MCA</span></li>
+                                <li class="list-group-item"><i class="fa-solid fa-location-dot"></i><b>RES</b> <span
+                                        class="float-end">Bangalore</span></li>
+                            </ul>
+                            <div class="p-3 mb-2 bg-danger text-white">EMAIL<br>
+                                <i class="fa-solid fa-envelope"></i> contact@gmail.com
+                            </div>
+                            <div class="p-3 mb-2 bg-info text-dark">PHONE NUMBER <br>
+                                <i class="fa-sharp fa-solid fa-phone-volume"></i> (+84) *** *** ***
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-sm-6 col-md-3  box">
+                <div class="sp">
+                    <div class="shadow p-3 mb-5 bg-body rounded">
+                        <div class="p-3 mb-2 bg-success text-white"><img class="img-fluid" src="/phuquoc.jpg" alt="">
+                            <div class="name">
+                                <p class="text-center"><b>PHÚ QUỐC</b> <br></p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item"><i class="fa-sharp fa-regular fa-calendar-days"></i>
+                                    <b>DOB</b>
+                                    <span class="float-end">27/04/2021</span>
+                                </li>
+                                <li class="list-group-item"><i class="fa-solid fa-heart"></i> <b>BG</b> <span
+                                        class="float-end">B+</span></li>
+                                <li class="list-group-item"><i class="fa-solid fa-graduation-cap"></i> <b>EDU</b><span
+                                        class="float-end">MCA</span></li>
+                                <li class="list-group-item"><i class="fa-solid fa-location-dot"></i><b>RES</b> <span
+                                        class="float-end">Bangalore</span></li>
+                            </ul>
+                            <div class="p-3 mb-2 bg-danger text-white">EMAIL ID <br>
+                                <i class="fa-solid fa-envelope"></i> robor12@gmail.com
+                            </div>
+                            <div class="p-3 mb-2 bg-info text-dark">PHONE NUMBER <br>
+                                <i class="fa-sharp fa-solid fa-phone-volume"></i> (+84) *** *** ***
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-sm-6 col-md-3  box">
+                <div class="sp">
+                    <div class="shadow p-3 mb-5 bg-body rounded">
+                        <div class="p-3 mb-2 bg-success text-white"><img class="img-fluid" src="/saigon.jpg" alt="">
+                            <div class="name">
+                                <p class="text-center"><b>SÀI GÒN</b> </p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item"><i class="fa-sharp fa-regular fa-calendar-days"></i>
+                                    <b>DOB</b>
+                                    <span class="float-end">27/04/2021</span>
+                                </li>
+                                <li class="list-group-item"><i class="fa-solid fa-heart"></i> <b>BG</b> <span
+                                        class="float-end">B+</span></li>
+                                <li class="list-group-item"><i class="fa-solid fa-graduation-cap"></i> <b>EDU</b><span
+                                        class="float-end">MCA</span></li>
+                                <li class="list-group-item"><i class="fa-solid fa-location-dot"></i><b>RES</b> <span
+                                        class="float-end">Bangalore</span></li>
+                            </ul>
+                            <div class="p-3 mb-2 bg-danger text-white">EMAIL ID <br>
+                                <i class="fa-solid fa-envelope"></i> contact@gmail.com
+                            </div>
+                            <div class="p-3 mb-2 bg-info text-dark">PHONE NUMBER <br>
+                                <i class="fa-sharp fa-solid fa-phone-volume"></i> (+84) *** *** ***
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <form>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        Tích điểm Quà tặng VIP <br>
+                        Lịch sử mua hàng <br>
+                        Tìm hiểu về mua trả góp <br>
+                        Chính sách bảo hành
+                    </div>
+                    <div class="col">
+                        Giới thiệu công ty <br>
+                        Tuyển dụng <br>
+                        Gửi góp ý, khiếu nại <br>
+                        Tìm siêu thị (3.383 shop) <br>
+                        Xem bản mobile
+                    </div>
+                    <div class="col">
+                        <h6>Tổng đài hỗ trợ</h6>
+                        Gọi mua: 1800.1060 (7:30 - 22:00) <br>
+
+                        Khiếu nại: 1800.1062 (8:00 - 21:30) <br>
+
+                        Bảo hành: 1800.1064 (8:00 - 21:00)
+                    </div>
+                    
+                    <div class="col">
+                        <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+                © 2023 Copyright:
+                <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+              </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
